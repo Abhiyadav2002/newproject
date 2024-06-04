@@ -8,9 +8,9 @@ body{
     color: #fff;
     overflow-x: hidden;
 }
-.container{
-    width: 1280px;
-    padding: 0 20px;
+.container {
+    width: 1200px;
+    padding: 0 15px;
     margin: 0 auto;
 }
 .row{
@@ -19,6 +19,12 @@ body{
 .top-bar {
     background-color: #f7f0ea;
     padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-main {
+    width: 100%;
     display: flex;
     justify-content: space-between;
 }
@@ -83,13 +89,14 @@ a:active{
 a:hover{
     color: #297d53;
 }
-.get {
+.get a {
     background-color: #297d53;
     color: #fff;
-    padding: 16px 20px;
+    padding: 15px 30px;
     border-radius: 5px;
     font-weight: 700;
 }
+
 .banner{
     background: url(../images/droan.jpg) center center no-repeat;
     background-size: cover;
