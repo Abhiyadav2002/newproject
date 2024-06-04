@@ -39,7 +39,7 @@ body{
     display: flex;
 }
 .phone span{
-    color: red;
+    color: #7A7A7A;
 }
 .phone a{
     font-weight: 400;
